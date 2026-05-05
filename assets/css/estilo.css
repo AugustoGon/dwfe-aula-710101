@@ -1,0 +1,38 @@
+@import url("./login.css");
+@import url("./cartao.css");
+@import url("./cabecalho.css");
+@import url("./menulateral.css");
+@import url("./corpo.css");
+@import url("./rodape.css");
+@import url("./responsividade.css");
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* border: .1rem solid purple; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.titulo-da-noticia {
+  height: 100px;
+}
+
+footer {
+  /* border: 0.1rem solid green; */
+  background-color: #252323;
+  color: #ccc;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
+}

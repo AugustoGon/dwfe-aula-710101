@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Minha Primeira Página</title>
+  <link rel="stylesheet" href="./assets/css/estilo.css">
+  <script src="https://kit.fontawesome.com/7212f70d6d.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/menu-hamburguer.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">A</div>
+    <h1 class="titulo">Meu Site de Notícias</h1>
+    <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+  <section>
+    <nav>
+      <ui class="menu-lateral">
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <div class="rotulo">Notícias</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="rotulo">Contato</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="rotulo">Perfil</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </div>
+              <div class="rotulo">Sair</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ui>
+    </nav>
+    <main class="container" id="noticias">
+      <div class="cartao">
+        <img src="./assets/img/mobilidade-urbana-img.webp" alt="" class="imagem-do-cartao">
+        <h1 class="titulo-da-noticia">Mobilidade Urbana</h1>
+        <p>
+        <div class="classificacao-da-noticia">
+          <span class="categoria-da-noticia">Transporte</span>
+          <span class="data-da-noticia">20/03/2026</span>
+        </div>
+        </p>
+        <p>
+        <div class="descricao-da-noticia"></div>
+        </p>
+        <p>
+        <div class="autoria-da-noticia">G1</div>
+        </p>
+        <a href="" class="botao-do-cartao">Ler mais</a>
+      </div>
+
+      <div class="cartao">
+        <img src="./assets/img/noticia2.jpg" alt="" class="imagem-do-cartao">
+        <h1 class="titulo-da-noticia">Polêmica com Chappell Roan</h1>
+        <p>
+        <div class="classificacao-da-noticia">
+          <span class="categoria-da-noticia">Famosos</span>
+          <span class="data-da-noticia">24/03/2026</span>
+        </div>
+        </p>
+        <p>
+        <div class="descricao-da-noticia"></div>
+        </p>
+        <p>
+        <div class="autoria-da-noticia">G1</div>
+        </p>
+        <a href="" class="botao-do-cartao">Ler mais</a>
+      </div>
+
+      <div class="cartao">
+        <img src="./assets/img/noticia3.avif" alt="" class="imagem-do-cartao">
+        <h1 class="titulo-da-noticia">O crime mais grave contra a humanidade</h1>
+        <p>
+        <div class="classificacao-da-noticia">
+          <span class="categoria-da-noticia">Mundo</span>
+          <span class="data-da-noticia">25/03/2026</span>
+        </div>
+        </p>
+        <p>
+        <div class="descricao-da-noticia"></div>
+        </p>
+        <p>
+        <div class="autoria-da-noticia">G1</div>
+        </p>
+        <a href="" class="botao-do-cartao">Ler mais</a>
+      </div>
+
+      <div class="cartao">
+        <img src="./assets/img/noticia4.avif" alt="" class="imagem-do-cartao">
+        <h1 class="titulo-da-noticia">É #FAKE que aplicar perfume no pescoço faz mal à tireoide</h1>
+        <p>
+        <div class="classificacao-da-noticia">
+          <span class="categoria-da-noticia">Saúde</span>
+          <span class="data-da-noticia">26/03/2026</span>
+        </div>
+        </p>
+        <p>
+        <div class="descricao-da-noticia"></div>
+        </p>
+        <p>
+        <div class="autoria-da-noticia">G1</div>
+        </p>
+        <a href="" class="botao-do-cartao">Ler mais</a>
+      </div>
+      <div class="cartao">
+        <img src="./assets/img/noticia5.avif" alt="" class="imagem-do-cartao">
+        <h1 class="titulo-da-noticia">Vídeo do peixinho pode ajudar a acalmar e reduzir ansiedade</h1>
+        <p>
+        <div class="classificacao-da-noticia">
+          <span class="categoria-da-noticia">Saúde</span>
+          <span class="data-da-noticia">26/03/2026</span>
+        </div>
+        </p>
+        <p>
+        <div class="descricao-da-noticia"></div>
+        </p>
+        <p>
+        <div class="autoria-da-noticia">G1</div>
+        </p>
+        <a href="" class="botao-do-cartao">Ler mais</a>
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    &copy; Meu Site de Notícias ❤️
+  </footer>
+
+
+</body>
+
+
+</html>

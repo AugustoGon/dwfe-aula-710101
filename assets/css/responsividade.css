@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .titulo-da-noticia {
+        opacity: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

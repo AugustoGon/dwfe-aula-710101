@@ -11,8 +11,8 @@ header {
 }
 
 .logo {
-    border: .1rem blue solid;
-    background-color: blue;
+    border: .1rem #5fa8d3 solid;
+    background-color: #5fa8d3;
     color: #eee;
     font-weight: bold;
     border-radius: 100%;
@@ -55,4 +55,8 @@ header {
 
 .menu-hamburguer i:hover {
     color: white;
+}
+
+.menu-oculto {
+  display: none;
 }

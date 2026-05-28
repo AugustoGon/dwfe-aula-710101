@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site de Notícias</title>
-    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/login/estilo.css">
     <script src="https://kit.fontawesome.com/7212f70d6d.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/login.js" type="module"></script>
 </head>
 
 <body>
     <header class="header-login">
         <div class="logo">A</div>
         <h1 class="titulo">Meu Site de Notícias</h1>
-        <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
+        <div class="menu-hamburguer">
             <i class="fa-solid fa-bars"></i>
         </div>
     </header>
@@ -22,10 +22,16 @@
     <div class="container-login">
         <h1>Login</h1>
         <form>
-            <input type="text" placeholder="Informe seu e-mail" id="email">
-            
-            <input type="password" placeholder="Informe sua senha" id="senha">
-            
+            <div class="input-grupo">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Informe seu e-mail" id="email">
+            </div>
+
+            <div class="input-grupo">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Informe sua senha" id="senha">
+            </div>
+
             <br>
 
             <button type="button" onclick="verificarCredenciais(); return false;">
@@ -33,11 +39,15 @@
                 Entrar
             </button>
 
-            <p>
-                <a href="#">Esqueci a senha</a>
-                .
-                <a href="#">Registre-se</a>
-            </p>
+
+            <div class="links-auxiliares">
+                <p>
+                    <a href="#">Esqueci a senha</a>
+                    <span>/</span>
+                    <a href="#">Registre-se</a>
+                </p>
+            </div>
+
 
         </form>
     </div>

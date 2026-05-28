@@ -1,8 +1,8 @@
 nav {
-  /* border: 0.1rem solid orangered;  */
-  width: 15rem;
-  background-color: #eee;
-  padding: .5rem;
+    /* border: 0.1rem solid orangered;  */
+    width: 15rem;
+    background-color: #eee;
+    padding: .5rem;
 }
 
 a {
@@ -53,3 +53,6 @@ li {
     transition: opacity 0.3s ease-in;
 }
 
+.menu-oculto {
+    display: none;
+}

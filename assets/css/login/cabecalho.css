@@ -1,0 +1,62 @@
+.header-login {
+    /* border: 0.1rem solid red; */
+    background-color: white;
+    color: black;
+    height: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+
+}
+.logo {
+    border: .1rem #5fa8d3 solid;
+    background-color: #5fa8d3;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: .1rem;
+    height: .1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+    box-sizing: content-box;
+}
+
+.titulo {
+    flex: 1;
+    /* border: .1rem solid white; */
+}
+
+.menu-hamburguer {
+    /* border: .1rem solid red; */
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-hamburguer i{
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.menu-hamburguer:hover i{
+    color: #eee;
+}
+
+.menu-hamburguer i:hover {
+    color: white;
+}
+
+.menu-oculto {
+  display: none;
+}
